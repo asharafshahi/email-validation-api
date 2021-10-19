@@ -1,6 +1,5 @@
 const express = require('express');
-const userRoutes = require('./user.route');
-const authRoutes = require('./auth.route');
+const emailRoutes = require('./email.route');
 
 const router = express.Router();
 
@@ -10,11 +9,8 @@ const router = express.Router();
 router.get('/status', (req, res) => res.send('OK'));
 
 /**
- * GET v1/docs
+ * GET v1/check
  */
-router.use('/docs', express.static('docs'));
-
-router.use('/users', userRoutes);
-router.use('/auth', authRoutes);
+router.use('/check', emailRoutes);
 
 module.exports = router;
