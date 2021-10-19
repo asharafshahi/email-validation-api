@@ -1,2 +1,4 @@
-# email-validation-api
-Demo Express server with endpoint to validate emails
+# Express REST API For Email Validation
+
+npm install --save
+npm start
