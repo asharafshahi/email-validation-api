@@ -28,7 +28,7 @@
     "cross-env": "^7.0.3",
     "dotenv-safe": "^8.2.0",
     "email-misspelled": "^3.3.8",
-    "email-templates": "^6.0.3",
+    "email-templates": "^8.0.8",
     "express": "^4.15.2",
     "express-validation": "^1.0.2",
     "helmet": "^4.6.0",
